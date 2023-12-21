@@ -121,5 +121,5 @@ if __name__ == "__main__":
         gzip_file = sys.argv[1]
         table = sys.argv[2]
     else:
-        sys.exit("USAGE: python mysqldump_to_csv.py /path/to/db.sql.gz table_name")
+        sys.exit("USAGE: python mysqldump_gzip_table_to_csv.py /path/to/db.sql.gz table_name")
     main(gzip_file, table)
